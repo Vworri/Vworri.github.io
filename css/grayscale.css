@@ -117,20 +117,7 @@ a:focus {
     border-bottom: 1px solid rgba(255, 255, 255, 0.3);
   }
 }
-.intro {
-  display: table;
-  width: 100%;
-  height: auto;
-  padding: 100px 0;
-  text-align: center;
-  color: white;
-  background: url(../img/intro-bg.jpg) no-repeat bottom center scroll;
-  background-color: black;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  background-size: cover;
-  -o-background-size: cover;
-}
+
 .intro .intro-body {
   display: table-cell;
   vertical-align: middle;
@@ -224,29 +211,43 @@ a:focus {
   width: 100%;
   padding: 50px 0;
   color: white;
-  background: url(../img/lz39lvute8s-ashim-d-silva.jpg) no-repeat center center scroll;
+  background: url(/img/fzak3_u4npe-dylan-gialanella.jpg) no-repeat center center scroll;
   background-color: black;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
   -o-background-size: cover;
 }
-.WebDevelopment-section {
-  width: 100%;
-  padding: 50px 0;
-  color: white;
-  background: url(../img/zexp6p7agje-nathan-anderson.jpg) no-repeat center center scroll;
-  background-color: black;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  background-size: cover;
-  -o-background-size: cover;
-}
-.Medium-section {
+.WebDevelpment-section {
     width: 100%;
     padding: 50px 0;
     color: white;
-    background: url(../img/fzak3_u4npe-dylan-gialanella.jpg) no-repeat center center scroll;
+    background: url(/img/zexp6p7agje-nathan-anderson.jpg) no-repeat center center scroll;
+    background-color: black;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+.MediumBlog-section{
+    width: 100%;
+    padding: 50px 0;
+    color: white;
+    background: url(/img/5djqsjaylmk-hoach-le-dinh.jpg) no-repeat center center scroll;
+    background-color: black;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+.intro {
+    display: table;
+    width: 100%;
+    height: auto;
+    padding: 100px 0;
+    text-align: center;
+    color: white;
+    background: url(#) no-repeat bottom center scroll;
     background-color: black;
     -webkit-background-size: cover;
     -moz-background-size: cover;
