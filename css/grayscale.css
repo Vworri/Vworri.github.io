@@ -222,7 +222,7 @@ a:focus {
     width: 100%;
     padding: 50px 0;
     color: white;
-    background: url(/img/zexp6p7agje-nathan-anderson.jpg) no-repeat center center scroll;
+    background: url( '/img/zexp6p7agje-nathan-anderson.jpg') no-repeat center center scroll;
     background-color: black;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -233,7 +233,7 @@ a:focus {
     width: 100%;
     padding: 50px 0;
     color: white;
-    background: url(/img/5djqsjaylmk-hoach-le-dinh.jpg) no-repeat center center scroll;
+    background: url('/img/5djqsjaylmk-hoach-le-dinh.jpg') no-repeat center center scroll;
     background-color: black;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -247,7 +247,7 @@ a:focus {
     padding: 100px 0;
     text-align: center;
     color: white;
-    background: url(#) no-repeat bottom center scroll;
+    background: url("/img/intro-bg.jpg") no-repeat bottom center scroll;
     background-color: black;
     -webkit-background-size: cover;
     -moz-background-size: cover;
