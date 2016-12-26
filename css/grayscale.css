@@ -220,16 +220,38 @@ a:focus {
 .content-section {
   padding-top: 100px;
 }
-.download-section {
+.Python-section {
   width: 100%;
   padding: 50px 0;
   color: white;
-  background: url(../img/downloads-bg.jpg) no-repeat center center scroll;
+  background: url(../img/lz39lvute8s-ashim-d-silva.jpg) no-repeat center center scroll;
   background-color: black;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
   -o-background-size: cover;
+}
+.WebDevelopment-section {
+  width: 100%;
+  padding: 50px 0;
+  color: white;
+  background: url(../img/zexp6p7agje-nathan-anderson.jpg) no-repeat center center scroll;
+  background-color: black;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+.Medium-section {
+    width: 100%;
+    padding: 50px 0;
+    color: white;
+    background: url(../img/fzak3_u4npe-dylan-gialanella.jpg) no-repeat center center scroll;
+    background-color: black;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
 }
 #map {
   width: 100%;
