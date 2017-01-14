@@ -9,6 +9,7 @@ body {
   font-family: "Lora", "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: white;
   background-color: black;
+  align-content: center;
 }
 html {
   width: 100%;
@@ -58,7 +59,9 @@ a:focus {
   text-transform: uppercase;
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   background-color: black;
+
 }
+
 .navbar-custom .navbar-toggle {
   color: white;
   background-color: rgba(255, 255, 255, 0.2);
@@ -211,18 +214,19 @@ a:focus {
   width: 100%;
   padding: 50px 0;
   color: white;
-  background: url(../img/downloads-bg.jpg) no-repeat center center scroll;
+  background: url(../img/downloads-bg.jpg) no-repeat bottom center scroll;
   background-color: black;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
   -o-background-size: cover;
 }
+
 .WebDevelopment-section {
     width: 100%;
     padding: 50px 0;
     color: white;
-    background: url("https://unsplash.com/collections/148984/black-and-white?photo=-F3Wqn9-zGk") no-repeat center center scroll;
+    background: url(../img/qandy1dyvau-warlen-g-vasco.jpg) no-repeat bottom center scroll;
     background-color: black;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -233,7 +237,7 @@ a:focus {
     width: 100%;
     padding: 50px 0;
     color: white;
-    background: url(/img/5djqsjaylmk-hoach-le-dinh.jpg) no-repeat center center scroll;
+    background: url(../img/5djqsjaylmk-hoach-le-dinh.jpg) no-repeat bottom center scroll;
     background-color: black;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -247,12 +251,68 @@ a:focus {
     padding: 100px 0;
     text-align: center;
     color: white;
-    background: url(/img/intro-bg.jpg) no-repeat bottom center scroll;
+    background: url(../img/intro-bg.jpg) no-repeat bottom center scroll;
     background-color: black;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
+}
+.back_end {
+  display: table;
+  width: 100%;
+  height: auto;
+  padding: 100px 0;
+  text-align: center;
+  color: white;
+  background: url(../img/v8p4y_tcfd8-noah-rosenfield.jpg) no-repeat bottom center scroll;
+  background-color: black;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+.portfolio {
+  display: table;
+  width: 100%;
+  height: auto;
+  padding: 100px 0;
+  text-align: center;
+  color: white;
+  background: url(../img/6-uqd2hmcg-stefan-kunze.jpg) no-repeat bottom center scroll;
+  background-color: black;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+.datascience {
+  display: table;
+  width: 100%;
+  height: auto;
+  padding: 100px 0;
+  text-align: center;
+  color: white;
+  background: url(../img//y5tjb62cxl8-axel-van-der-donk.jpg) no-repeat bottom center scroll;
+  background-color: black;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+.networkProgramming {
+  display: table;
+  width: 100%;
+  height: auto;
+  padding: 100px 0;
+  text-align: center;
+  color: white;
+  background: url(../img/xpcsu_da5qw-alex-jones.jpg) no-repeat bottom center scroll;
+  background-color: black;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
 }
 #map {
   width: 100%;
@@ -334,4 +394,10 @@ img::-moz-selection {
 }
 body {
   webkit-tap-highlight-color: rgba(255, 255, 255, 0.2);
+}
+.container{
+  position: relative;
+}
+.buffer{
+  height: 20vh;
 }
