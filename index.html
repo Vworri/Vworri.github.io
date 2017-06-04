@@ -34,7 +34,7 @@
 <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
 
     <!-- Navigation -->
-    <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
+    <nav class="navbar navbar-custom navbar-fixed-top " role="navigation">
         <div class="container">
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
@@ -47,39 +47,53 @@
 
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
-
-                <ul class="nav navbar-nav">
+                <ul class="nav navbar-nav ">
                     <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
                     <li class="hidden">
                         <a href="#page-top"></a>
                     </li>
+                    <li class="dropdown nav navbar-nav ">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
+                           aria-expanded="false">Home<span class="caret"></span></a>
+                    <ul class="dropdown-menu">
                     <li>
-                        <a class="page-scroll" href="#about">About</a>
+                        <a class="page-scroll" href="index.html#about">About</a>
                     </li>
                     <!--<li>
                         <a class="page-scroll" href="#Python">Python</a>
                     </li>-->
                     <li>
-                        <a class="page-scroll" href="#WebDevelopment">Front-End</a>
+                        <a class="page-scroll" href="index.html#WebDevelopment">Front-End</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#backend">Back-End</a>
+                        <a class="page-scroll" href="index.html#backend">Back-End</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#DataScience">Data Science</a>
+                        <a class="page-scroll" href="index.html#DataScience">Data Science</a>
                     </li>
 
                     <li>
-                        <a class="page-scroll" href="#portfolio">Portfolio</a>
+                        <a class="page-scroll" href="index.html#portfolio">Portfolio</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#certificates">Certificates</a>
+                        <a class="page-scroll" href="index.html#certificates">Certificates</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#MediumBlog">Medium</a>
+                        <a class="page-scroll" href="index.html#MediumBlog">Medium</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#contact">Contact</a>
+                        <a class="page-scroll" href="index.html#contact">Contact</a>
+                    </li>
+                    </ul>
+                </li>
+                <li>
+                    <a class="page-scroll" href="portfolio.html">Portfolio</a>
+                </li>
+                    <li>
+                        <a class="page-scroll" href="certificates.html">Certificates</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="blog_index.html">Blog</a>
                     </li>
                 </ul>
             </div>
@@ -153,7 +167,7 @@
         <div>
             <div class="container WebDevelopment-section">
                 <div class="col-lg-8 col-lg-offset-2 " >
-                    <h2></h2>
+                    <h2>Front End Web Development</h2>
                     <p>I have a Front End certificate from <a href="https://www.freecodecamp.com/vworri/front-end-certification">Freecodecamp</a>. I have experience
                         with Javascript and some of it's frameworks like JQuery. I am quite comfortable with HTML5 and things like
                         Bootstrap. I can make a quick and dirty website and I can make a personalized website.
@@ -163,12 +177,12 @@
             </div>
         </div>
     </section>
-        <!--bBack-End Development Section-->
+        <!--Back-End Development Section-->
         <section id="backend" class="content-section text-center">
             <div>
                 <div class="container WebDevelopment-section back_end">
                     <div class="col-lg-8 col-lg-offset-2 " >
-                        <h2></h2>
+                        <h2>Back End Web Development</h2>
                         <p>I am confident in Node.js, especially using Express and I can use Python for Back End. I am working on getting my Back End Certification from
                             Freecodecamp.com </p>  <p>One of the projects I am working on now is a Python network sniffer that collects network data using Tshark
                         and parses out the payload type of your choice. The project name is <a href="https://github.com/FreeOpenU/eavesdrop">Eavesdrop</a>.
@@ -177,7 +191,7 @@
                     </div></div>
             </div>
         </section>
-   <!---Network Prigramming -->
+   <!---Network Programming -->
   <!--  <section id="NetworkProgramming" class="content-section text-center ">
         <div>
             <div class="container WebDevelopment-section networkProgramming">
@@ -193,7 +207,7 @@
         <div>
             <div class="container WebDevelopment-section datascience">
                 <div class="col-lg-8 col-lg-offset-2 " >
-                    <h2></h2>
+                    <h2>Data / Computational Work</h2>
                     <p>I really enjoy Python and there is one sphere in with Python outshines all others: Computation. I stumbled across <a href="https://www.kaggle.com/">Kaggle</a>
                     , which led me to <a href="https://www.dataquest.io">Dataquest</a> and I got very excited. I couldn't help but sign up immediately. I have been working on their projects for a while and learning so much about, not just
                     Python and it's super cool modules, but SQL and R programming.</p>
@@ -206,7 +220,7 @@
             <div>
                 <div class="container WebDevelopment-section portfolio">
                     <div class="col-lg-8 col-lg-offset-2 " >
-                        <h2></h2>
+                        <h2>Portfolio</h2>
                         <p>I like to see myself as a Jane-of-all-trades. I like to learn new skills and do different things
                         while staying true to my computational roots. If you are interested in seeing <a href="portfolio.html" >my portfolio,</a>
                             you are welcome to it.</p>
@@ -218,7 +232,7 @@
             <div>
                 <div class="container WebDevelopment-section portfolio">
                     <div class="col-lg-8 col-lg-offset-2 " >
-                        <h2></h2>
+                        <h2>Certificates</h2>
                         <p>Through my learning journey, I have earned a few <a href="certificates.html">certificates</a>.  </p>
                     </div></div>
             </div>

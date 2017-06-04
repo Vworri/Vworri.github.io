@@ -7,8 +7,8 @@ body {
   width: 100%;
   height: 100%;
   font-family: "Lora", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  color: white;
-  background-color: black;
+  color: #494758;
+  background-color: white;
   align-content: center;
 }
 html {
@@ -58,7 +58,7 @@ a:focus {
   border-bottom: 1px solid rgba(255, 255, 255, 0.3);
   text-transform: uppercase;
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  background-color: black;
+  background-color: white;
 
 }
 
@@ -109,14 +109,14 @@ a:focus {
     padding: 20px 0;
     border-bottom: none;
     letter-spacing: 1px;
-    background: transparent;
+    background: #d2d2ca;
     -webkit-transition: background 0.5s ease-in-out, padding 0.5s ease-in-out;
     -moz-transition: background 0.5s ease-in-out, padding 0.5s ease-in-out;
     transition: background 0.5s ease-in-out, padding 0.5s ease-in-out;
   }
   .navbar-custom.top-nav-collapse {
     padding: 0;
-    background: black;
+    background: 	#9aa38e;
     border-bottom: 1px solid rgba(255, 255, 255, 0.3);
   }
 }
@@ -208,14 +208,13 @@ a:focus {
   }
 }
 .content-section {
-  padding-top: 100px;
+  padding-top: 50px;
 }
 .Python-section {
   width: 100%;
   padding: 50px 0;
   color: white;
-  background: url(../img/downloads-bg.jpg) no-repeat bottom center scroll;
-  background-color: black;
+  background-color: #494758;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
@@ -226,8 +225,7 @@ a:focus {
     width: 100%;
     padding: 50px 0;
     color: white;
-    background: url(../img/qandy1dyvau-warlen-g-vasco.jpg) no-repeat bottom center scroll;
-    background-color: black;
+    background-color: #494758;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -235,10 +233,9 @@ a:focus {
 }
 .MediumBlog-section{
     width: 100%;
-    padding: 50px 0;
+    padding: 100px 0;
     color: white;
-    background: url(../img/5djqsjaylmk-hoach-le-dinh.jpg) no-repeat bottom center scroll;
-    background-color: black;
+    background-color: #494758;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -251,8 +248,7 @@ a:focus {
     padding: 100px 0;
     text-align: center;
     color: white;
-    background: url(../img/intro-bg.jpg) no-repeat bottom center scroll;
-    background-color: black;
+    background-color: #494758;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -265,8 +261,7 @@ a:focus {
   padding: 100px 0;
   text-align: center;
   color: white;
-  background: url(../img/v8p4y_tcfd8-noah-rosenfield.jpg) no-repeat bottom center scroll;
-  background-color: black;
+  background-color: #494758;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
@@ -279,8 +274,7 @@ a:focus {
   padding: 100px 0;
   text-align: center;
   color: white;
-  background: url(../img/6-uqd2hmcg-stefan-kunze.jpg) no-repeat bottom center scroll;
-  background-color: black;
+  background-color: #494758;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
@@ -293,8 +287,7 @@ a:focus {
   padding: 100px 0;
   text-align: center;
   color: white;
-  background: url(../img//y5tjb62cxl8-axel-van-der-donk.jpg) no-repeat bottom center scroll;
-  background-color: black;
+  background-color: #494758;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
@@ -304,16 +297,16 @@ a:focus {
   display: table;
   width: 100%;
   height: auto;
-  padding: 100px 0;
+  padding: 50px 0;
   text-align: center;
   color: white;
-  background: url(../img/xpcsu_da5qw-alex-jones.jpg) no-repeat bottom center scroll;
-  background-color: black;
+  background-color: #494758;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
   -o-background-size: cover;
 }
+
 #map {
   width: 100%;
   height: 200px;
@@ -321,7 +314,7 @@ a:focus {
 }
 @media (min-width: 767px) {
   .content-section {
-    padding-top: 250px;
+    padding-top: 50px;
   }
   .download-section {
     padding: 100px 0;
