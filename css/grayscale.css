@@ -306,6 +306,35 @@ a:focus {
   background-size: cover;
   -o-background-size: cover;
 }
+.Go-section {
+  display: table;
+  width: 100%;
+  height: auto;
+  padding: 50px 0;
+  text-align: center;
+  color: white;
+  background-color: #494758;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+
+
+.section_image_l {
+  height: 50vh;
+  width: 50vh;
+  float: left;
+  padding: 1vh;
+}
+
+.section_image_r {
+  height: 50vh;
+  width: 50vh;
+  float: right;
+  padding: 1vh;
+}
+
 
 #map {
   width: 100%;
