@@ -374,6 +374,18 @@ a:focus {
   color: black;
   background-color: #42DCA3;
 }
+
+iframe[seamless]{
+  background-color: transparent;
+  border: 0px none transparent;
+  padding: 0px;
+  overflow: hidden;
+}
+
+.MediumBlog{
+  width: 175vh;
+  height: 200vh;
+}
 ul.banner-social-buttons {
   margin-top: 0;
 }
