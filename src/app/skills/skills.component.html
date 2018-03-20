@@ -1,0 +1,10 @@
+<div class="skill">
+  
+  <ul><li *ngFor="let skill of skills"
+  [class.selected]="skill === selectedSkill"
+  (click)="onSelect(skill)" >
+<h2>{{ skill.name | uppercase}}</h2>
+</li>
+</ul>
+</div>
+<app-skills-detail [skill]="selectedSkill"></app-skills-detail>
