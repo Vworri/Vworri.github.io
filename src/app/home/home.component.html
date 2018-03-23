@@ -1,0 +1,21 @@
+
+<div class="skill">
+    <ul>
+    <li *ngFor="let skill of skills">
+    <div class="card">
+        <div class="card-header">
+            
+              <span>{{ skill.skillName | uppercase}}
+                </span>
+        </div>
+        <img  src="{{skill.skillAlternateImage}}" style="height:50vh">
+
+        <div class="card-block">
+          <h4 class="card-title">{{skill.skillSubTitle}}</h4>
+          <p class="card-text">{{skill.skillExplaination}}</p>
+          <a routerLink="/detail/{{skill.skillName}}">Find out how I work with {{skill.skillName}} </a>
+        </div>
+    </div>
+    </li>
+    </ul>
+    </div>

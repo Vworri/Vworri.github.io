@@ -1,6 +1,5 @@
 import { Component, OnInit } from '@angular/core';
 import { Skill } from '../skills';
-import { Skills } from '../mock-skills';
 import { SkillsService } from '../skills.service';
 
 @Component({
@@ -9,7 +8,6 @@ import { SkillsService } from '../skills.service';
   styleUrls: ['./skills.component.css']
 })
 export class SkillsComponent implements OnInit {
-  selectedSkill: Skill;
   skills: Skill[] ;
   getSkills(): void {
     this.skillsService.getSkills()
@@ -21,8 +19,4 @@ export class SkillsComponent implements OnInit {
     this.getSkills();
   }
 
-
-  onSelect(skill: Skill): void {
-    this.selectedSkill = skill;
-  }
 }

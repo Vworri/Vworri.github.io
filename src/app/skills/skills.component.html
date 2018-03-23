@@ -1,10 +1,11 @@
 <div class="skill">
   
-  <ul><li *ngFor="let skill of skills"
-  [class.selected]="skill === selectedSkill"
-  (click)="onSelect(skill)" >
-<h2>{{ skill.name | uppercase}}</h2>
+  <ul><li *ngFor="let skill of skills">
+    <a routerLink="/detail/{{skill.skillName}}">
+<span>{{ skill.skillName | uppercase}}
+</span>
+</a>
+
 </li>
 </ul>
 </div>
-<app-skills-detail [skill]="selectedSkill"></app-skills-detail>

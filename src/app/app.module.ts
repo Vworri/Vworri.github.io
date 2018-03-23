@@ -7,17 +7,25 @@ import { SkillsDetailComponent } from './skills-detail/skills-detail.component';
 import { SkillsService} from './skills.service';
 import { MessagesService } from './messages.service';
 import { MessagesComponent } from './messages/messages.component';
+import { AppRoutingModule } from './/app-routing.module';
+import { DashboardComponent } from './dashboard/dashboard.component';
+import { HttpClient, HttpClientModule } from '@angular/common/http';
+import { HomeComponent } from './home/home.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     SkillsComponent,
     SkillsDetailComponent,
-    MessagesComponent
+    MessagesComponent,
+    DashboardComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule,
-    FormsModule
+    FormsModule,
+    AppRoutingModule,
+    HttpClientModule
   ],
   providers: [SkillsService, MessagesService],
   bootstrap: [AppComponent]
