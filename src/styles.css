@@ -1,1 +1,42 @@
 /* You can add global styles to this file, and also import other style files */
+
+body{
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+p {
+    margin: 0 0 25px;
+    font-size: 18px;
+    line-height: 1.5;
+  }
+
+
+  a:hover,
+  a:focus {
+    text-decoration: none;
+    color: #1d9b6c;
+  }
+  .light {
+    font-weight: 400;
+  }
+
+
+  .interElem-default {
+    border: 1px solid #42DCA3;
+    color: #42DCA3;
+    background-color: transparent;
+  }
+  .interElem-default:hover,
+  .interElem-default:focus {
+    border: 1px solid #42DCA3;
+    outline: none;
+    color: black;
+    background-color: #42DCA3;
+  }
+
+.interElem-circle:hover,
+  .interElem-circle:focus {
+    outline: none;
+    color: white;
+    background: rgba(255, 255, 255, 0.1);
+  }
+

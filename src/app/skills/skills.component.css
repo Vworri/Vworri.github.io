@@ -1,13 +1,19 @@
+ul{
+    list-style-type: none;
+ 
+}
 li {
-    color: royalblue
-
-}
-.skill .badge{
-    color: red
+    margin: 5vh
 }
 
-.skill .selected{
-    background-color: palegreen;
-    color: rgb(95, 29, 93)
-}
 
+.main {
+    margin-top: 50vh;
+    align-content: center;
+    vertical-align: middle;
+    text-align: center;   
+} 
+
+.isCollapsed{
+    display: none
+}

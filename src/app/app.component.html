@@ -1,24 +1,9 @@
 
-<nav class="navbar navbar-toggleable-md navbar-light bg-faded  navbar-fixed-top">
-    <button class="navbar-toggler navbar-toggler-left" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
-      aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation" (click)="isActive = !isActive"> 
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <a routerLink="/home"><img src="../assets/2018-02-24-170551.ico" class = "myImage" alt="Image"/></a>
-    <div class="collapse navbar-collapse" id="navbarNavDropdown" [ngClass]="{show : isActive}">
-      <ul class="navbar-nav">
-          <li *ngFor="let skill of skills" >
-              <a [routerLink]="'/detail/'+ skill.skillName">{{skill.skillName}}</a>
-              </li>
-          </ul>
-          </div>
- </nav>
 
+<app-navigation-bar></app-navigation-bar>
+ <router-outlet ></router-outlet>
 
-
- <router-outlet></router-outlet>
-
-
+<app-footer></app-footer>
 
 
 

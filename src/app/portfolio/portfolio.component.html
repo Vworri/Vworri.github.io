@@ -1,0 +1,29 @@
+
+<div class="main">
+<!--Card-->
+<ul>
+  <li *ngFor="let project of portfolio">
+<div class="card ">
+
+  <!--Card image-->
+  <div class="view overlay">
+      <img class="img-fluid" alt="" src={{project.projectimage}} >
+      <a href="#">
+          <div class="mask rgba-white-slight"></div>
+      </a>
+  </div>
+
+  <!--Card content-->
+  <div class="card-body">
+      <!--Title-->
+      <h4 class="card-title">{{project.projectName}}</h4>
+      <!--Text-->
+      <p class="card-text">{{ project.projectTags }}</p>
+      <a href="#" class="btn btn-primary">Read More</a>
+  </div>
+
+</div>
+<!--/.Card-->
+</li>
+</ul>
+</div>

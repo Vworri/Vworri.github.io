@@ -1,0 +1,27 @@
+footer {
+    padding: 50px 0;
+    text-align: center;
+    
+  }
+  .main {
+    background-color: #475849;
+    padding: 10vh;
+    margin: 0;
+    text-align: center;
+
+  }
+  footer p {
+    margin: 0;
+  }
+  ul.banner-social-buttons {
+    margin-top: 0;
+  }
+
+  
+  ul > li {
+    display: inline-block;
+  }
+  
+  #contact{
+    position: relative;
+  }

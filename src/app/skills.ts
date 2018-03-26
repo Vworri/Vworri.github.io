@@ -5,5 +5,6 @@ export class Skill {
     SkillAlternateImage: string;
     SkillExplaination: string;
     SkillSubTitle: string;
+
 }
 

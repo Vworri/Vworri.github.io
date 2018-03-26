@@ -1,6 +1,7 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit} from '@angular/core';
 import { Skill } from '../skills';
 import { SkillsService } from '../skills.service';
+
 
 @Component({
   selector: 'app-skills',
@@ -9,14 +10,16 @@ import { SkillsService } from '../skills.service';
 })
 export class SkillsComponent implements OnInit {
   skills: Skill[] ;
+  constructor(private skillsService: SkillsService) {}
+
+
   getSkills(): void {
     this.skillsService.getSkills()
     .subscribe(skills => this.skills = skills);
   }
-  constructor(private skillsService: SkillsService) {}
-
   ngOnInit() {
     this.getSkills();
   }
+
 
 }

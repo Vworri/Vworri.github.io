@@ -1,0 +1,5 @@
+<div class=" language main" *ngIf='language'>
+ <h2> {{language.languageName}}</h2>
+ <img src="{{language.languageImage}}"  style="height:50vh">
+    <div  [innerHTML]=language.languageDescription></div>
+</div>

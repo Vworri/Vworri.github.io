@@ -1,10 +1,12 @@
+<div class="skill main" *ngIf="skill">
 
-<div *ngIf="skill" >
-    <h2>{{ skill.skillName | uppercase}}</h2>
-    <div>
-    <img  src="{{skill.skillAlternateImage}}" style="height:50vh">
-</div>
+   <h2>{{ skill.skillName | uppercase}}</h2> 
+
+    <img src="{{skill.skillAlternateImage}}" style="height:50vh">
+    <h4>{{skill.skillSubTitle}}</h4>
+    <p class="card-text">{{skill.skillExplaination}}</p>
+
+    <div class="mySkill" [innerHTML]=skill.skillDescription>
+
     </div>
-    <div>    
 </div>
-    

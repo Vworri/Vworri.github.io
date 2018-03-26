@@ -1,11 +1,28 @@
-<div class="skill">
-  
-  <ul><li *ngFor="let skill of skills">
-    <a routerLink="/detail/{{skill.skillName}}">
-<span>{{ skill.skillName | uppercase}}
-</span>
-</a>
+<div class="skill main">
+  <ul>
+    <li *ngFor="let skill of skills" class="interElem-circl interElem-default   interElem-default  btn-default btn-lg">
+      <div >
+        <div class="btn btn-outline-primary" (click)="visible = !visible">
+            {{ skill.skillName | uppercase}}
+          </div>
+          <div   ngbPanelContent class="card-block">
+            <img src="{{skill.skillAlternateImage}}" style="height:50vh">
+            <h4>{{skill.skillSubTitle}}</h4>
+            <p class="card-text">{{skill.skillExplaination}}</p>
+            <div class="buttonDiv" data-toggle="collapse" data-toggle="collapse" (click)="isActive = !isActive" data-target="#skillInfo">
 
-</li>
-</ul>
+                <span class="btn btn-circle page-scroll btn btn-default btn-lg navbar-toggler-icon" >
+                        <i class="fa fa-angle-double-down collapse-icon animated"></i>
+                </span>
+            </div>
+            <div  class="collapse navbar-collapse"  [ngClass]="{show : isActive}" id="skillInfo" [innerHTML]=skill.skillDescription>
+
+            </div>
+          </div>
+        </div>
+    
+
+    </li>
+
+  </ul>
 </div>

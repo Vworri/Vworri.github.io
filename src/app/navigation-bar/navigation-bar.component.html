@@ -1,0 +1,30 @@
+<nav class="navText navbar  nav-tabs navbar-fixed-top" role="navigation">
+<div  class="container navbar-header">
+  <a routerLink="">
+    <h4  >NJaN: Vera Worri</h4></a>
+</div>
+          <div ngbDropdown  id="navDropdownMenu" >
+            <button class="btn interElem-default" id="dropdownBasic1" ngbDropdownToggle>Roles</button>
+            <div class="navDropdownContainer" ngbDropdownMenu aria-labelledby="dropdownBasic1">
+             <ul>
+              <li class="navDropdown btn btn-default" *ngFor="let skill of skills">
+                <p [routerLink]="'/skill/'+ skill.skillName">{{skill.skillName}}</p>
+                </li>
+                </ul>
+                </div>
+ </div>
+          <div ngbDropdown  id="navDropdownMenu" >
+              <button class="btn interElem-default" id="dropdownBasic2" ngbDropdownToggle>Languages</button>
+              <div class="navDropdownContainer" ngbDropdownMenu aria-labelledby="dropdownBasic1">
+               <ul>
+                <li class="navDropdown btn btn-default" *ngFor="let language of languages">
+                  <p [routerLink]="'/lang/'+ language.languageName">  {{language.languageName}}</p>
+                  </li>
+                  </ul>
+                  </div>
+            </div>
+</nav>
+
+
+
+
