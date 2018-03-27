@@ -1,28 +1,40 @@
-<div class="skill main">
-  <ul>
-    <li *ngFor="let skill of skills" class="interElem-circl interElem-default   interElem-default  btn-default btn-lg">
-      <div >
-        <div class="btn btn-outline-primary" (click)="visible = !visible">
-            {{ skill.skillName | uppercase}}
-          </div>
-          <div   ngbPanelContent class="card-block">
-            <img src="{{skill.skillAlternateImage}}" style="height:50vh">
-            <h4>{{skill.skillSubTitle}}</h4>
-            <p class="card-text">{{skill.skillExplaination}}</p>
-            <div class="buttonDiv" data-toggle="collapse" data-toggle="collapse" (click)="isActive = !isActive" data-target="#skillInfo">
+<div class="skill main row justify-content-md-center">
 
-                <span class="btn btn-circle page-scroll btn btn-default btn-lg navbar-toggler-icon" >
-                        <i class="fa fa-angle-double-down collapse-icon animated"></i>
-                </span>
-            </div>
-            <div  class="collapse navbar-collapse"  [ngClass]="{show : isActive}" id="skillInfo" [innerHTML]=skill.skillDescription>
+    <div *ngFor="let skill of skills" [class.selected]="skill==selectedSkill">
+        <div class="card mb-3">
+            <div class="card-header">
+                <ul class="nav nav-tabs card-header-tabs  show">
+                    <li >
+                        <a data-toggle="tab"  id="skillCard_{{skill.skillName}}_nav" attr.aria-labelledby="skillCard_{{skill.skillName}}"  class="nav-link" (click)="onSelectCard(skill)">Actiive</a>
+                    </li>
+                    <li>
+                        <a class="nav-link" id="skillDetail_{{skill.skillName}}_nav"  (click)="onSelectDetail(skill)"  attr.aria-labelledby="skillDetail_{{skill.skillName}}" data-toggle="tab">Another Actiive</a>
+                    </li>
 
+
+                </ul>
             </div>
-          </div>
+     
+            <div id="skillCard_{{skill.skillName}}"  attr.aria-labelledby="skillCard_{{skill.skillName}}_nav" >  
+
+                
+                <figure class="card-body">
+                
+                    <h4 class="card-title"> {{skill.skillName | uppercase}} </h4>
+                 
+                    <p class="card-text">{{skill.skillSubTitle}}</p>
+
+                </figure>
+                
+            </div>
+            <div  *ngIf="skill == selectedSkill" class="show active" id="skillDetail_{{skill.skillName}}"  attr.aria-labelledby="skillDetail_{{skill.skillName}}_nav">
+            <figure>
+                <app-skills-detail [skill]="skill"></app-skills-detail>
+            </figure>
         </div>
-    
+        </div>
 
-    </li>
-
-  </ul>
+    </div>
 </div>
+
+

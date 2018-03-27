@@ -1,11 +1,11 @@
 
 .main {
-    padding: 5%;
+    padding: 10vh;
     align-content: center;
     vertical-align: middle;
     text-align: center;   
     background-color: #485759;
-    padding-top: 50vh;
+    padding-top: 25vh;
 }
 
 .main li{
@@ -23,7 +23,11 @@
     height: 40;
     border-radius: 10px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    padding: 3%;
-    /* padding: 2%; */
+    padding: 5%;
 
+}
+
+img {
+    border-radius: 10px;
+    padding: 2vh;
 }

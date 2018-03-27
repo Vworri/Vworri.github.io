@@ -1,11 +1,5 @@
 <div class="grid grid-pad">
-  <ul *ngFor="let skill of skills">
-    <li class="dshboard-skill-list">
-      <h1 class="module skill" [class.selected]="skill === selectedSkill" (click)="onSelect(skill)">
-        {{skill.skillName}}</h1>
-      <a [routerLink]="'/detail/'+ skill.skillName">See what I can offer</a>
-      <div [innerHTML]="skill.skillDescription">
-      </div>
-    </li>
-  </ul>
+  <app-skills></app-skills>
+  <app-languages></app-languages>
+  <app-portfolio></app-portfolio>
 </div>

@@ -1,3 +1,23 @@
+ul{
+    list-style-type: none;
+ 
+}
+li {
+    margin: 5vh
+}
+
+
 .main {
-    padding-top: 50vh;
+    padding-top: 25vh;
+    align-content: center;
+    vertical-align: middle;
+    text-align: center;   
+    background-color: #485759;
+    padding-bottom: 10vh;
+} 
+
+.card{
+    margin: 5vh;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }

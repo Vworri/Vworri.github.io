@@ -1,10 +1,10 @@
 export class Skill {
-    SkillName: string;
-    SkillDescription: string;
-    SkillImageName: string;
-    SkillAlternateImage: string;
-    SkillExplaination: string;
-    SkillSubTitle: string;
+    skillName: string;
+    skillDescription: string;
+    skillImageName: string;
+    skillAlternateImage: string;
+    skillExplaination: string;
+    skillSubTitle: string;
 
 }
 

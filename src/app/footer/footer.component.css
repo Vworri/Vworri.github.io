@@ -1,18 +1,14 @@
-footer {
-    padding: 50px 0;
-    text-align: center;
-    
-  }
+
   .main {
     background-color: #475849;
-    padding: 10vh;
-    margin: 0;
     text-align: center;
+    margin: auto; 
+    padding: 10vh;
+    display: inline-block;
+    width: 100%;
 
   }
-  footer p {
-    margin: 0;
-  }
+
   ul.banner-social-buttons {
     margin-top: 0;
   }
@@ -22,6 +18,3 @@ footer {
     display: inline-block;
   }
   
-  #contact{
-    position: relative;
-  }

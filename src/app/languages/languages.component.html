@@ -1,12 +1,26 @@
-<ul class="language main">
-  <li *ngFor="let language of languages">
+<div class="main row justify-content-md-center">
+  <div *ngFor="let language of languages">
 
-<div class="card text-white bg-success mb-3" style="max-width: 20rem;">
-  <div class="card-header">  {{language.languageName}}</div>
-  <div class="card-body">
-    <h4 class="card-title">Success card title</h4>
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-  </div>
+<div class="card mb-3">
+
+
+  <!--Card image-->
+  <figure class="view overlay">
+      <img class="img-fluid" alt="" >
+      <a href="#">
+          <div class="mask rgba-white-slight"></div>
+      </a>
+    </figure>
+
+  <!--Card content-->
+  <figure class="card-body">
+      <!--Title-->
+      <h4 class="card-title">{{language.languageName}}</h4>
+      <!--Text-->
+      <p class="card-text">{{ language.languageExplaination}}</p> 
+      <a [routerLink]="'/lang/'+ language.languageName" class="btn btn-default">Read More</a> 
+  </figure>
+
 </div>
-</li>
-</ul>
+</div>
+</div>
