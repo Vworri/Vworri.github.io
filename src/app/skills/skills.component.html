@@ -3,12 +3,12 @@
     <div *ngFor="let skill of skills" [class.selected]="skill==selectedSkill">
         <div class="card mb-3">
             <div class="card-header">
-                <ul class="nav nav-tabs card-header-tabs  show">
-                    <li >
-                        <a data-toggle="tab"  id="skillCard_{{skill.skillName}}_nav" attr.aria-labelledby="skillCard_{{skill.skillName}}"  class="nav-link" (click)="onSelectCard(skill)">Actiive</a>
+                <ul class="nav nav-tabs card-header-tabs ">
+                    <li class="nav-link"   data-toggle="tab" >
+                        <a id="skillCard_{{skill.skillName}}_nav"  [class.active]="skill != selectedSkill"   attr.aria-labelledby="skillCard_{{skill.skillName}}"  (click)="onSelectCard(skill)">Actiive</a>
                     </li>
-                    <li>
-                        <a class="nav-link" id="skillDetail_{{skill.skillName}}_nav"  (click)="onSelectDetail(skill)"  attr.aria-labelledby="skillDetail_{{skill.skillName}}" data-toggle="tab">Another Actiive</a>
+                    <li class="nav-link"  data-toggle="tab"  >
+                        <a id="skillDetail_{{skill.skillName}}_nav"(click)="onSelectDetail(skill)" [class.active]="skill == selectedSkill"    attr.aria-labelledby="skillDetail_{{skill.skillName}}" data-toggle="tab">Another Actiive</a>
                     </li>
 
 
